@@ -17,6 +17,6 @@ export class AppComponent {
         let returnUrl = localStorage.getItem('returnUrl');
         router.navigateByUrl(returnUrl);
       }
-    })
+    });
   }
 }
